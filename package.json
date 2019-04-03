@@ -1,7 +1,7 @@
 {
   "name": "full-stack-conf",
   "version": "0.1.0",
-  "home": "https://github.com/fallencloud/full_stack_conf",
+  "homepage": "https://github.com/fallencloud/full_stack_conf",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
