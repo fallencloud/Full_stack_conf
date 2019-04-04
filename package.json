@@ -1,7 +1,10 @@
 {
   "name": "full-stack-conf",
   "version": "0.1.0",
-  "homepage": "https://github.com/fallencloud/full_stack_conf",
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.5.0"
+  },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -14,8 +17,7 @@
     "serve": "^11.0.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
