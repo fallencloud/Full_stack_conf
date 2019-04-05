@@ -172,7 +172,65 @@ const Modal = () => {
               </label>
             </div>
             <hr />
-            <h3>Payment Info</h3>
+            <h3>Credit Card Info</h3>
+            <div class='form-group'>
+              <label for='card-number'>Card Number:</label>
+              <input
+                type='text'
+                class='form-control'
+                id='card-number'
+                aria-describedby='emailHelp'
+              />
+            </div>
+            <div class='form-group'>
+              <label for='pay-zip'>Zip Code:</label>
+              <input
+                type='text'
+                class='form-control'
+                id='pay-zip'
+                aria-describedby='emailHelp'
+              />
+            </div>
+            <div class='form-group'>
+              <label for='cvv'>CVV:</label>
+              <input
+                type='text'
+                class='form-control'
+                id='cvv'
+                aria-describedby='emailHelp'
+              />
+            </div>
+            <div class='form-group'>
+              <label for='exy'>Expiration Date:</label>
+              <br />
+              <select class='role-select' id='exy'>
+                <option selected>1 - January</option>
+                <option value='jan'>1-January</option>
+                <option value='feb'>2 - February</option>
+                <option value='mar'>3 - March</option>
+                <option value='apr'>4 - April</option>
+                <option value='may'>5 - May</option>
+                <option value='jun'>6 - June</option>
+                <option value='jul'>7 - July</option>
+                <option value='aug'>8 - August</option>
+                <option value='sep'>9 - September</option>
+                <option value='oct'>10 - October</option>
+                <option value='nov'>11 - November</option>
+                <option value='dec'>12 - December</option>
+              </select>
+            </div>
+            <div class='form-group'>
+              <label for='exy-year'>Expiration Date:</label>
+              <br />
+              <select class='role-select' id='exy-year'>
+                <option selected>2019</option>
+                <option value='2019'>2019</option>
+                <option value='2020'>2020</option>
+                <option value='2021'>2021</option>
+                <option value='2022'>2022</option>
+                <option value='2023'>2023</option>
+              </select>
+            </div>
           </div>
           <div class='modal-footer'>
             <button
