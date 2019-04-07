@@ -1,39 +1,39 @@
-import React from "react";
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <div class="container">
+    <nav className='navbar navbar-expand-lg navbar-dark bg-primary fixed-top'>
+      <div className='container'>
         <a
-          class="navbar-brand order-1 mr-0"
-          href="https://www.teamtreehouse.com"
-          target="_blank"
+          className='navbar-brand order-1 mr-0'
+          href='https://fallencloud.github.io'
+          target='_blank'
         >
           Presented by Sharina V.
         </a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          className='navbar-toggler'
+          type='button'
+          data-toggle='collapse'
+          data-target='#navbarNavAltMarkup'
+          aria-controls='navbarNavAltMarkup'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
         >
-          <span class="navbar-toggler-icon" />
+          <span className='navbar-toggler-icon' />
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#home">
-              Home <span class="sr-only">(current)</span>
+        <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
+          <div className='navbar-nav'>
+            <a className='nav-item nav-link' href='#home'>
+              Home <span className='sr-only'>(current)</span>
             </a>
-            <a class="nav-item nav-link" href="#about">
+            <a className='nav-item nav-link' href='#about'>
               About
             </a>
-            <a class="nav-item nav-link" href="#speakers">
+            <a className='nav-item nav-link' href='#speakers'>
               Speakers
             </a>
-            <a class="nav-item nav-link" href="#schedule">
+            <a className='nav-item nav-link' href='#schedule'>
               Schedule
             </a>
           </div>

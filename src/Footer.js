@@ -1,45 +1,45 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div class="row py-3">
-      <div class="col-md-7">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+    <div className='row py-3'>
+      <div className='col-md-7'>
+        <ul className='nav'>
+          <li className='nav-item'>
+            <a className='nav-link' href='#'>
               Community
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className='nav-item'>
+            <a className='nav-link' href='#'>
               Tracks
             </a>
           </li>
-          <li class="nav-item">
-            <div class="btn-group dropup">
-              <button type="button" class="btn btn-outline-secondary">
+          <li className='nav-item'>
+            <div className='btn-group dropup'>
+              <button type='button' className='btn btn-outline-secondary'>
                 Other Confs
               </button>
               <button
-                type="button"
-                class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
+                type='button'
+                className='btn btn-outline-secondary dropdown-toggle dropdown-toggle-split'
+                data-toggle='dropdown'
+                aria-haspopup='true'
+                aria-expanded='false'
               >
-                <span class="sr-only">Toggle Dropdown</span>
+                <span className='sr-only'>Toggle Dropdown</span>
               </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">
+              <div className='dropdown-menu'>
+                <a className='dropdown-item' href='#'>
                   CSS Conf
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className='dropdown-item' href='#'>
                   Python Conf
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className='dropdown-item' href='#'>
                   Java Conf
                 </a>
-                <a class="dropdown-item" href="#">
+                <a className='dropdown-item' href='#'>
                   Swift Conf
                 </a>
               </div>
@@ -47,7 +47,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div class="col-md text-md-right">
+      <div className='col-md text-md-right'>
         <small>&copy; 2017 Full Stack Conf &amp; Treehouse</small>
       </div>
     </div>

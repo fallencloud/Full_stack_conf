@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const Signup = () => {
   return (
-    <div class="row py-4 text-muted">
-      <div class="col-md col-xl-5">
+    <div className='row py-4 text-muted'>
+      <div className='col-md col-xl-5'>
         <p>
           <strong>About Treehouse</strong>
         </p>
@@ -12,14 +12,14 @@ const Signup = () => {
           to help them achieve their dreams and change the world.
         </p>
       </div>
-      <div class="col-md col-xl-5 ml-auto">
+      <div className='col-md col-xl-5 ml-auto'>
         <p>
           <strong>Stay up-to-date on Full Stack Conf</strong>
         </p>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Email" />
-          <span class="input-group-btn">
-            <button class="btn btn-primary" type="button">
+        <div className='input-group'>
+          <input type='text' className='form-control' placeholder='Email' />
+          <span className='input-group-btn'>
+            <button className='btn btn-primary' type='button'>
               Sign up
             </button>
           </span>

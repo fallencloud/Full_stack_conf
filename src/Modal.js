@@ -29,35 +29,35 @@ class Modal extends Component {
   render() {
     return (
       <div
-        class='modal fade'
+        className='modal fade'
         id='register'
         tabindex='-1'
         role='dialog'
         aria-labelledby='register form'
         aria-hidden='true'
       >
-        <div class='modal-dialog' role='document'>
-          <div class='modal-content'>
-            <div class='modal-header'>
-              <h5 class='modal-title' id='exampleModalLabel'>
+        <div className='modal-dialog' role='document'>
+          <div className='modal-content'>
+            <div className='modal-header'>
+              <h5 className='modal-title' id='exampleModalLabel'>
                 Register for Full Stack Conf
               </h5>
               <button
                 type='button'
-                class='close'
+                className='close'
                 data-dismiss='modal'
                 aria-label='Close'
               >
                 <span aria-hidden='true'>&times;</span>
               </button>
             </div>
-            <div class='modal-body text-left'>
+            <div className='modal-body text-left'>
               <h3>Basic Information</h3>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='name'>Name</label>
                 <input
                   type='text'
-                  class='form-control'
+                  className='form-control'
                   id='name'
                   name='name'
                   value={this.state.name}
@@ -65,11 +65,11 @@ class Modal extends Component {
                   placeholder='Enter your name'
                 />
               </div>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='email'>Email address</label>
                 <input
                   type='email'
-                  class='form-control'
+                  className='form-control'
                   id='email'
                   name='email'
                   value={this.state.email}
@@ -78,7 +78,7 @@ class Modal extends Component {
                 />
               </div>
               <h3>Job Role</h3>
-              <select class='role-select' id='role'>
+              <select className='role-select' id='role'>
                 <option selected>Job Role</option>
                 <option value='full-stack-js'>
                   Full Stack JavaScript Developer
@@ -91,32 +91,32 @@ class Modal extends Component {
               </select>
               <hr />
               <h3>T-Shirt Info</h3>
-              <div class='form-group d-inline'>
+              <div className='form-group d-inline'>
                 <label for='size'>Size</label>
-                <select multiple class='form-control' id='size'>
+                <select multiple className='form-control' id='size'>
                   <option>S</option>
                   <option>M</option>
                   <option>L</option>
                 </select>
               </div>
-              <div class='form-group d-inline'>
+              <div className='form-group d-inline'>
                 <label for='size'>Design</label>
-                <select multiple class='form-control' id='design'>
+                <select multiple className='form-control' id='design'>
                   <option>Theme - JS Puns</option>
                   <option>Theme - I ♥ JS</option>
                 </select>
               </div>
-              <div class='form-group d-inline'>
+              <div className='form-group d-inline'>
                 <label for='colorPun'>Color</label>
-                <select multiple class='form-control' id='colorPun'>
+                <select multiple className='form-control' id='colorPun'>
                   <option>Cornflower Blue (JS Pun shirt only)</option>
                   <option>Dark Slate Gray (JS Pun shirt only)</option>
                   <option>Gold (JS Pun shirt only)</option>
                 </select>
               </div>
-              <div class='form-group d-inline'>
+              <div className='form-group d-inline'>
                 <label for='colorHeart'>Color</label>
-                <select multiple class='form-control' id='colorHeart'>
+                <select multiple className='form-control' id='colorHeart'>
                   <option>Dim Grey (I ♥ JS shirt only)</option>
                   <option>Tomato (I ♥ JS shirt only)</option>
                   <option>Steel Blue (I ♥ JS shirt only)</option>
@@ -124,116 +124,116 @@ class Modal extends Component {
               </div>
               <hr />
               <h3>Register for Activities</h3>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='mainConference'
                   id='mainConference'
                 />
-                <label class='form-check-label' for='mainConference'>
+                <label className='form-check-label' for='mainConference'>
                   Main Conference — $200
                 </label>
               </div>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='frameworks'
                   id='frameworks'
                 />
-                <label class='form-check-label' for='frameworks'>
+                <label className='form-check-label' for='frameworks'>
                   JavaScript Frameworks Workshop — Tuesday 9am-12pm, $100
                 </label>
               </div>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='libraries'
                   id='libraries'
                 />
-                <label class='form-check-label' for='libraries'>
+                <label className='form-check-label' for='libraries'>
                   JavaScript Libraries Workshop — Tuesday 1pm-4pm, $100
                 </label>
               </div>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='express'
                   id='express'
                 />
-                <label class='form-check-label' for='express'>
+                <label className='form-check-label' for='express'>
                   Express Workshop — Tuesday 9am-12pm, $100
                 </label>
               </div>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='node'
                   id='node'
                 />
-                <label class='form-check-label' for='node'>
+                <label className='form-check-label' for='node'>
                   Node.js Workshop — Tuesday 1pm-4pm, $100
                 </label>
               </div>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='tools'
                   id='tools'
                 />
-                <label class='form-check-label' for='tools'>
+                <label className='form-check-label' for='tools'>
                   Build tools Workshop — Wednesday 9am-12pm, $100
                 </label>
               </div>
-              <div class='form-check'>
+              <div className='form-check'>
                 <input
-                  class='form-check-input'
+                  className='form-check-input'
                   type='checkbox'
                   value='npm'
                   id='npm'
                 />
-                <label class='form-check-label' for='npm'>
+                <label className='form-check-label' for='npm'>
                   npm Workshop — Wednesday 1pm-4pm, $100
                 </label>
               </div>
               <hr />
               <h3>Credit Card Info</h3>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='cardNumber'>Card Number:</label>
                 <input
                   type='text'
-                  class='form-control'
+                  className='form-control'
                   id='cardNumber'
                   aria-describedby='emailHelp'
                 />
               </div>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='payZip'>Zip Code:</label>
                 <input
                   type='text'
-                  class='form-control'
+                  className='form-control'
                   id='payZip'
                   aria-describedby='emailHelp'
                 />
               </div>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='cvv'>CVV:</label>
                 <input
                   type='text'
-                  class='form-control'
+                  className='form-control'
                   id='cvv'
                   aria-describedby='emailHelp'
                 />
               </div>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='exy'>Expiration Date:</label>
                 <br />
-                <select class='role-select' id='exy'>
+                <select className='role-select' id='exy'>
                   <option selected>1 - January</option>
                   <option value='jan'>1-January</option>
                   <option value='feb'>2 - February</option>
@@ -249,10 +249,10 @@ class Modal extends Component {
                   <option value='dec'>12 - December</option>
                 </select>
               </div>
-              <div class='form-group'>
+              <div className='form-group'>
                 <label for='exyYear'>Expiration Date:</label>
                 <br />
-                <select class='role-select' id='exyYear'>
+                <select className='role-select' id='exyYear'>
                   <option selected>2019</option>
                   <option value='2019'>2019</option>
                   <option value='2020'>2020</option>
@@ -262,15 +262,15 @@ class Modal extends Component {
                 </select>
               </div>
             </div>
-            <div class='modal-footer'>
+            <div className='modal-footer'>
               <button
                 type='button'
-                class='btn btn-secondary'
+                className='btn btn-secondary'
                 data-dismiss='modal'
               >
                 Close
               </button>
-              <button type='button' class='btn btn-danger'>
+              <button type='button' className='btn btn-danger'>
                 Register
               </button>
             </div>
